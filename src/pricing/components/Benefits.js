@@ -16,7 +16,7 @@ export default function Benefits() {
 						<div key={benefit.title} className="spacing-base">
 							<h3>
 								{benefit.title}
-								<br />
+								{/* <br /> */}
 							</h3>
 							<div>{benefit.subtitle}</div>
 						</div>
@@ -26,3 +26,13 @@ export default function Benefits() {
 		</div>
 	);
 }
+
+/* {benefits.map((benefit) => (
+  <div key={benefit.title} className="spacing-base">
+    <h3>
+      {benefit.title}
+      <br />
+    </h3>
+    <div>{benefit.subtitle}</div>
+  </div>
+))} */
